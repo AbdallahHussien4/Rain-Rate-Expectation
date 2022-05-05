@@ -1,6 +1,6 @@
 Logestic regression = {'C': 1.0, 'penalty': 'l2', 'solver': 'newton-cg'} acc= 83.04%
 Decision tree = {'criterion': 'entropy', 'max_depth': 1000} acc = 77.68%
-MLP = {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 100, 50), 'learning_rate': 'adaptive', 'solver': 'adam'} acc = 84.02%
+MLP = {'activation': 'relu', 'alpha': 0.0001,  'learning_rate': 'adaptive', 'solver': 'adam'} acc = 84.02%
 KNN = {'leaf_size': 40, 'metric': 'minkowski', 'n_neighbors': 10, 'p': 2, 'weights': 'uniform'} acc = 83.72%
 SVM = {'C': 1, 'kernel': 'linear', gamma: 'scale', 'max_iter': 1600} acc = 77.37%
 RF = {'max_depth': 100, 'max_features': 'log2', 'min_samples_leaf': 3, 'n_estimators': 1300} acc = 84.77%
